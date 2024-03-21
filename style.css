@@ -1,0 +1,49 @@
+body {
+  background: #3e3e3e;
+}
+
+h1 {
+  color: orangered;
+}
+
+.container {
+  display: block;
+  justify-content: center;
+  align-items: center;
+
+  div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+#app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  margin-top: 25px;
+  background: transparent;
+  color: orangered;
+  padding: 12px 24px;
+  outline: none;
+  border: 2px solid orangered;
+  box-shadow: 0 0 20px orangered;
+  transition: 0.3s ease-in;
+  font-size: 16px;
+}
+
+button:hover {
+  background: orangered;
+  color: whitesmoke;
+  box-shadow: 0 0 40px orangered;
+}
+
+.help {
+  margin-top: 25px;
+  color: orchid;
+  font-size: 25px;
+}
