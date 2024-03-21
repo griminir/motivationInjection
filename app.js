@@ -1,5 +1,10 @@
 //model
-const videos = ['videos/thisFar.mp4', 'videos/quitting.mp4', 'videos/risk.mp4'];
+const videos = [
+  'videos/thisFar.mp4',
+  'videos/quitting.mp4',
+  'videos/risk.mp4',
+  'videos/doit.mp4',
+];
 const app = document.getElementById('app');
 let random;
 //view
